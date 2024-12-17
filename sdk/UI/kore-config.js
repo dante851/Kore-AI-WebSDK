@@ -20,7 +20,8 @@
         }
     }
 
-    botOptions.JWTUrl = "http://localhost:3000/api/users/sts";
+    // botOptions.JWTUrl = "http://localhost:300/api/users/sts";
+    botOptions.JWTUrl = "https://kore-ai-verbiage-proper-format.onrender.com/api/auth-service/jwtToken";
     botOptions.userIdentity = 'balavignesh25@gmail.com';// Provide users email id here
     botOptions.botInfo = { name: "ordermanage", "_id": "st-ae29b86a-53b5-570a-93b9-7fdb0510f76d" }; // bot name is case sensitive
 
